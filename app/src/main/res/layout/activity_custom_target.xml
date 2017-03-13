@@ -21,7 +21,7 @@
         android:id="@+id/iv_result"
         android:layout_width="50dp"
         android:layout_height="50dp" />
-    <com.example.lizejun.repoglidelearn.CustomView
+    <com.example.lizejun.repoglidelearn.view.CustomView
         android:id="@+id/cv_result"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -35,5 +35,5 @@
             android:id="@+id/iv_custom_result"
             android:layout_width="200dp"
             android:layout_height="200dp" />
-    </com.example.lizejun.repoglidelearn.CustomView>
+    </com.example.lizejun.repoglidelearn.view.CustomView>
 </LinearLayout>

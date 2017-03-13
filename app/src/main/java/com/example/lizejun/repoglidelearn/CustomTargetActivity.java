@@ -9,6 +9,7 @@ import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.target.ViewTarget;
+import com.example.lizejun.repoglidelearn.view.CustomView;
 
 public class CustomTargetActivity extends AppCompatActivity {
 

@@ -48,4 +48,10 @@
         style="@style/style_tv_normal"
         android:text="AnimateDemo"
         android:onClick="clickAnimateDemo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        style="@style/style_tv_normal"
+        android:text="CustomGlideDemo"
+        android:onClick="clickCustomGlideDemo"/>
 </LinearLayout>

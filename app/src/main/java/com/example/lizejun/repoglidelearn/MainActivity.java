@@ -47,4 +47,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AnimateActivity.class);
         startActivity(intent);
     }
+
+    public void clickCustomGlideDemo(View view) {
+        Intent intent = new Intent(this, CustomGlideActivity.class);
+        startActivity(intent);
+    }
 }

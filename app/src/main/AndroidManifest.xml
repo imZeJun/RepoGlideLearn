@@ -11,6 +11,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.example.lizejun.repoglidelearn.moduleloader.CustomGlideModule"
+            android:value="GlideModule" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +28,8 @@
         <activity android:name=".ThumbnailsActivity" />
         <activity android:name=".CustomTargetActivity" />
         <activity android:name=".TransformActivity" />
-        <activity android:name=".AnimateActivity"></activity>
+        <activity android:name=".AnimateActivity" />
+        <activity android:name=".CustomGlideActivity"/>
     </application>
 
 </manifest>
